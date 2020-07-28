@@ -22,8 +22,6 @@
     }
     /* HEADER */
     .um-header {
-        width: 1240px;
-        margin: 0 auto;
         padding: 10px 20px;
         box-sizing: border-box;
     }
@@ -69,7 +67,6 @@
             background-color: var(--bg);
         }
         .um-header {
-            width: 100%;
             padding: 20px 10%;
             box-sizing: border-box;
             background-color: var(--bg-dark);
@@ -116,6 +113,8 @@
         width: 100%;
         max-width: 1240px;
         margin: 0 auto;
+        padding: 0 40px;
+        box-sizing: border-box;
     }
     .um-block .msb-img {
         background: url(images/babygame.png) no-repeat 0 0;
@@ -124,11 +123,12 @@
         height: 575px;
     }
     .um-block .cc-img {
-        background: url(images/im2.png) no-repeat 0 0;
+        background: url(images/im2.png) no-repeat center center;
         background-size: contain;
-        width: 370px;
+        min-width: 370px;
         height: 507px;
-        margin-left: 200px;
+        margin-left: 10%;
+        width: 50%;
     }
     .um-block_desc-subtitle {
         color: var(--orange);
